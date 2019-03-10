@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background: #clbdba;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container-form{
+  position: relative;
+  background: rgba(0,0,0,.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 48px auto;
+  border-radius: 5px;
+  box-shadow: o 4px 10px 4px rgba(0,0,0,.3);
+
+}
+
+.container-tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  clear: both;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160,179,176,.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+li a:hover{
+  background: #66CC99;
+  color: #fff;
+}
+
+.active a {
+  background:  #1ab188;
+  color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: $blanco;
+    font-weight: $thin;
+    margin: 0 0 40px;
+}
+
+label{
+  position: absolute;
+  left: 13px;
+  color: rgba(255,255,255,0.2);
+  transition: all 0.25s ease;
+   -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+
+}
+ .req {
+        margin: 2px;
+        color: $color-principal;
+    }
+
+
+label.active {
+    transform: translateY(50px);
+    left: 2px;
+    font-size: 14px;
+    
+}
+
+label.highlight {
+    color: $blanco;
+}
+
+input {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    border-radius: 0;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #1ab188;
+}
+
+.contenedor-input {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 2rem;
+    background: #1ab188;
+    color: #fff;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+  }
+
+  .btn:hover, .btn:focus{
+    background: 
+  }
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
